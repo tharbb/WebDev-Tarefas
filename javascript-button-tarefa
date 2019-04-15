@@ -21,3 +21,4 @@
 						ola.textContent = "Tchau!"
 					}
 			}
+	</script>
