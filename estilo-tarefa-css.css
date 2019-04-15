@@ -1,0 +1,64 @@
+body {
+ 	background-image: url("background-tarefa.png");
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	margin: 60px
+}
+
+.cabecalho {
+	background: rgba(252,253,255);
+	width: 100%;
+}
+
+h1 {
+	color: #330000;
+	font-size: 30px;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+
+h2 {
+	padding-left: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e5105e;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #450a99;
+}
+
+main{
+	padding-left: 10px;
+	padding-top: 30px;
+}
+
+section{
+	color: white;
+}
+
+footer{
+	padding-left: 10px;
+	padding-top: 30px;
+}
+
+span{
+	color: white;
+}
