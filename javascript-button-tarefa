@@ -1,0 +1,23 @@
+<html>
+	<body>
+		<h1 id="ola">
+			Olá, tudo bem?
+		</h1>
+		<button onclick="mudarTexto()">
+			Mudar Texto
+		</button>
+	</body>
+	
+	<script>
+
+			function mudarTexto() {
+			var ola = document.getElementById("ola")
+			ola.textContent = "Tchau!"
+				
+				if 	ola.textContent == "Tchau!"{
+					ola.textContent = "Olá, tudo bem?"
+				}	
+					else{
+						ola.textContent = "Tchau!"
+					}
+			}
